@@ -92,6 +92,16 @@ uvicorn app.main:app --reload
 - Server runs at: **http://127.0.0.1:8000**
 - Interactive API docs at: **http://127.0.0.1:8000/docs**
 
+### 🌐 Live Deployment
+
+The API is fully deployed and accessible without any local setup:
+
+| Interface | URL |
+|-----------|-----|
+| Live API | https://idempotency-gateway-cyw6.onrender.com |
+| Live Swagger Docs | https://idempotency-gateway-cyw6.onrender.com/docs |
+| Live ReDoc | https://idempotency-gateway-cyw6.onrender.com/redoc |
+
 ---
 
 ## API Documentation
