@@ -14,4 +14,5 @@ async def init_db():
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
+        await db.execute("CREATE INDEX IF NOT EXISTS idx_created_at ON idempotency_keys(created_at)")
         await db.commit()
